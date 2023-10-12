@@ -6,6 +6,7 @@ import Weather from "./screens/Weather";
 import Personality from "./screens/Personality";
 import Similarity from "./screens/Similarity";
 import Books from "./screens/Books";
+import PDFChat from "./screens/PDFChat";
 
 import "./styles/bootstrap-custom.scss";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/personality" element={<Personality />}></Route>
           <Route path="/similarity" element={<Similarity />}></Route>
           <Route path="/books" element={<Books />}></Route>
+          <Route path="/PDFchat" element={<PDFChat />}></Route>
         </Routes>
       </Router>
     </>
