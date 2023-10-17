@@ -7,6 +7,7 @@ import Personality from "./screens/Personality";
 import Similarity from "./screens/Similarity";
 import Books from "./screens/Books";
 import PDFChat from "./screens/PDFChat";
+import ImageGeneration from "./screens/ImageGeneration";
 
 import "./styles/bootstrap-custom.scss";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/similarity" element={<Similarity />}></Route>
           <Route path="/books" element={<Books />}></Route>
           <Route path="/PDFchat" element={<PDFChat />}></Route>
+          <Route path="/image-generation" element={<ImageGeneration />}></Route>
         </Routes>
       </Router>
     </>
