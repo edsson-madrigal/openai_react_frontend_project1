@@ -8,6 +8,7 @@ import Similarity from "./screens/Similarity";
 import Books from "./screens/Books";
 import PDFChat from "./screens/PDFChat";
 import ImageGeneration from "./screens/ImageGeneration";
+import ImageEdition from "./screens/ImageEdition";
 
 import "./styles/bootstrap-custom.scss";
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/books" element={<Books />}></Route>
           <Route path="/PDFchat" element={<PDFChat />}></Route>
           <Route path="/image-generation" element={<ImageGeneration />}></Route>
+          <Route path="/image-edition" element={<ImageEdition />}></Route>
         </Routes>
       </Router>
     </>
