@@ -9,6 +9,7 @@ import Books from "./screens/Books";
 import PDFChat from "./screens/PDFChat";
 import ImageGeneration from "./screens/ImageGeneration";
 import ImageEdition from "./screens/ImageEdition";
+import ImageVariations from "./screens/ImageVariations";
 
 import "./styles/bootstrap-custom.scss";
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/PDFchat" element={<PDFChat />}></Route>
           <Route path="/image-generation" element={<ImageGeneration />}></Route>
           <Route path="/image-edition" element={<ImageEdition />}></Route>
+          <Route path="/image-variations" element={<ImageVariations />}></Route>
         </Routes>
       </Router>
     </>
