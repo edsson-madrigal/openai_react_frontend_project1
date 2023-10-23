@@ -10,6 +10,7 @@ import PDFChat from "./screens/PDFChat";
 import ImageGeneration from "./screens/ImageGeneration";
 import ImageEdition from "./screens/ImageEdition";
 import ImageVariations from "./screens/ImageVariations";
+import TranslateAudio from "./screens/TranslateAudio";
 
 import "./styles/bootstrap-custom.scss";
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/image-generation" element={<ImageGeneration />}></Route>
           <Route path="/image-edition" element={<ImageEdition />}></Route>
           <Route path="/image-variations" element={<ImageVariations />}></Route>
+          <Route path="/translate-audio" element={<TranslateAudio />}></Route>
         </Routes>
       </Router>
     </>
